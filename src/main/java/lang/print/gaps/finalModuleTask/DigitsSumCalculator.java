@@ -6,7 +6,6 @@ public class DigitsSumCalculator {
                 int second = (number/100)%10;
                 int third = (number/10)%10;
                 int fourth = number%10;
-                System.out.println(first+" "+second+" "+third + " " +fourth);
                 System.out.println(first+second+third  +fourth);
     }
 }
